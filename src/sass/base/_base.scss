@@ -1,0 +1,21 @@
+* {
+  background-color: $color-deep-grey;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.rotate-90-deg {
+  transform: rotate(90deg);
+}
+
+.header-logo {
+  font-family: 'Kanit', sans-serif;
+  color: $color-white;
+}
