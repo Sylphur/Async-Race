@@ -1,0 +1,13 @@
+.header-navbar li {
+  @media screen and (max-width: 767px) {
+    margin-top: 1%;
+  }
+}
+.header-navbar-li:first-child {
+  @media screen and (max-width: 767px) {
+    padding-right: 3%;
+  }
+}
+.header-logo {
+  font-size: 3rem;
+}
